@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Branch</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fonts Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- CSS file -->
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Branch</a>
+          <div class="" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Play Beta</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="banner-heading">
+          <div id="fly-in">
+          <h1>Welcome to The <span>Metaverse</span></h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+
+    <!-- About -->
+    <div class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="about-head">What is branch?</h2>
+            <p class="about-para">
+              Branch is a place to build, play games, and explore thousands of
+              player-created worlds while talking with your friends!
+            </p>
+            <a href="#" class="about-link">Play Beta</a>
+          </div>
+          <div class="col-md-6">
+            <div class="about-img-wrap">
+              <img src="./assets/milo_party.jpg" alt="Milo Party" />
+            </div>
+          </div>
+        </div>
+        <!-- Services Card -->
+        <div class="service-cards">
+          <div class="row justify-content-md-around">
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="./assets/explore_worlds.png" alt="Explore Worlds" />
+                <h2>EXPLORE WORLDS</h2>
+                <p>Explore thousands of worlds made by the community!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img src="./assets/make_games.png" alt="Make Games" />
+                <h2>MAKE GAMES</h2>
+                <p>Make your own games for people to play and earn!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="./assets/choose_your_style.png"
+                  alt="Choose your style"
+                />
+                <h2>CHOOSE YOUR STYLE</h2>
+                <p>Be whoever you want to be! Collect all kinds of outfits!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-md-around">
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="./assets/build_your_house.png"
+                  alt="Choose your style"
+                />
+                <h2>BUILD YOUR HOUSE</h2>
+                <p>Create your own house and invite your friends over!</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="service-card">
+                <img
+                  src="./assets/talk_with_friends.png"
+                  alt="Choose your style"
+                />
+                <h2>TALK WITH FRIENDS</h2>
+                <p>Hang out with your friends and use your voice to chat!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Social Media Handles -->
+    <div class="social-media">
+      <br />
+      <div align="center" class="socialbtns">
+        <ul>
+          <li><a href="#" class="fab fa-2x fa-twitter"></a></li>
+          <li><a href="#" class="fab fa-2x fa-tiktok"></a></li>
+          <li><a href="#" class="fab fa-2x fa-discord"></a></li>
+          <li><a href="#" class="fab fa-2x fa-reddit-alien"></a></li>
+        </ul>
+      </div>
+      <div class="terms">
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer">
+      <img src="./assets/milo.png" alt="" />
+    </div>
+    <!-- BootStrap Js file -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+   
+    <script src="./assets/scripts/canvas.js" type="module"></script>
+   
+  
+  </body>
+</html>
