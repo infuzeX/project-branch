@@ -300,4 +300,15 @@ video {
   .about-link {
     margin: 0 auto 5% auto;
   }
+  .about-img-wrap img {
+    height: 180px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about-img-wrap img {
+    height: 135px;
+  }
+
 }
